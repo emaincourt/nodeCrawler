@@ -162,7 +162,6 @@ var conf = {
     }
   }
 }
-
 app.get('/parser',function(req,res){
   nodeCrawler.crawl(anyURL,conf,function(model){
     res.send(model);
@@ -173,10 +172,10 @@ app.get('/parser',function(req,res){
 ####Example without HTML template
 
 > Our configuration file should look like these.
+
 ```javascript
 var nodeCrawler = require('nodecrawler');
 var express = require('express');
-
 var conf = {
   "model" : {
     "type" : "text",
@@ -232,7 +231,6 @@ var conf = {
     }
   }
 }
-
 app.get('/parser',function(req,res){
   nodeCrawler.crawl(anyURL,conf,function(model){
     res.send(model);
@@ -240,14 +238,14 @@ app.get('/parser',function(req,res){
 })
 .listen(process.env.PORT || 3000);
 ```
+
 ####Example with HTML template
 
 > Our configuration file should look like these. You may notice the way data will be injected into templates. Since tracklist has been declared as an ```Array```, the template will be repeated for all values stored inside.
->
+
 ```javascript
 var nodeCrawler = require('nodecrawler');
 var express = require('express');
-
 var conf = {
   "model" : {
     "type" : "html",
@@ -303,7 +301,6 @@ var conf = {
     }
   }
 }
-
 app.get('/parser',function(req,res){
   nodeCrawler.crawl(anyURL,conf,function(model){
     res.send(model);
