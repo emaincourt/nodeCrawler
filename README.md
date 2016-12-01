@@ -4,7 +4,7 @@ nodeCrawler
 ----------------------------------------------------
 
 
-**nodeCrawler ** is a very **generic** and **easy-to-setup** structure for developing a website crawler with **node.js**.
+**nodeCrawler** is a very **generic** and **easy-to-setup** structure for developing a website crawler with **node.js**.
 
 ----------
 
