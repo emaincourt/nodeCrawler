@@ -145,7 +145,6 @@ Examples
 ```javascript
 var nodeCrawler = require('nodecrawler');
 var express = require('express');
-
 var conf = {
   "model" : {
     "type" : "text",
