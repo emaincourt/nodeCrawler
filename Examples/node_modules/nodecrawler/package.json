@@ -1,0 +1,11 @@
+{
+  "name": "node-app",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "jQuery": "~1.7.4",
+    "jsdom": "^9.6.0"
+  }
+}
